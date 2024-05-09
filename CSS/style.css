@@ -1,0 +1,34 @@
+
+.btn a {
+    color: inherit; /* Örökli a szülő színeit, ebben az esetben a gomb színét */
+            text-decoration: none; /* Eltávolítja az aláhúzást */
+}
+
+body {
+    background-color: #212529;
+}
+
+
+/* Menüpontok alapértelmezett színe */
+.navbar-nav .nav-link {
+    color: #dc3545; /* Piros szín */
+    font-size: 30px;
+    margin-right: 30px; /* Térköz a menüpontok között */
+}
+
+/* Menüpontok színe, ha az egér fölöttük van */
+.navbar-nav .nav-link:hover {
+    color: #fff; /* Fehér szín */
+}
+
+.container {
+    color: #fff; /* Fehér szöveg */
+    margin-top: 30px; /* Térköz a container-ek felett */
+}
+
+.gallery-image {
+    height: 300px;  /* Fix magasság minden képhez */
+    object-fit: cover;  /* Ez biztosítja, hogy a kép arányai megmaradjanak, miközben kitölti a megadott területet */
+}
+
+

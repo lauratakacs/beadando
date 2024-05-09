@@ -1,0 +1,45 @@
+body {
+    background-color: #212529;
+}
+
+h1 {
+    color: #dc3545;
+}
+
+/* A tartalom középre igazítása */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+/* A felhasználónév és jelszó közötti távolság növelése */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* A bejelentkezés, felhasználónév és jelszó szövegek színe fehér */
+label {
+    color: #dc3545;
+}
+
+/* A regisztrálj itt gomb stílusa */
+.btn-regisztralj {
+    color: #dc3545;
+    background-color: transparent;
+    border-color: #dc3545;
+}
+
+.btn-regisztralj:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.registration-link p {
+    color: #dc3545;
+    text-align: center;
+}
+
